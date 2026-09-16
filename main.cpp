@@ -7,7 +7,7 @@ using namespace std;
 const double PI = 3.14159265358979;
 
 // ===== Расчётные функции варианта =====
-// Перевод градусов в радианы
+// Перевод градусов в радианы: rad = deg * π / 180
 double degToRad(double d) {
     return d * PI / 180.0;
 }
